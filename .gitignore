@@ -3,3 +3,4 @@ cypress/results
 screenshots
 mochawesome-report
 videos
+package-lock.json
