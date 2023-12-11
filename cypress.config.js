@@ -30,11 +30,11 @@ module.exports = defineConfig({
     pageLoadTimeout: 12000,
     excludeSpecPattern: "cypress/e2e/other/*.{js,jsx,ts,tsx,feature}",
     chromeWebSecurity: false,
-    screenshotOnRunFailure: true,
+    screenshotOnRunFailure: false,
     //screenshotsFolder:,
     trashAssetsBeforeRuns: true,
     videoCompression: 10, //lower the value better the quality of video
-    video: true,
+    video: false,
     viewportHeight: 2080,
     viewportWidth: 2920,
     reporter: "cypress-multi-reporters",
